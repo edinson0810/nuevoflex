@@ -43,3 +43,25 @@
       margin: 0 auto;
       border: none;
     }
+
+    @media(max-width:800px){
+      .principal
+        {flex-direction: column;}
+      .ilustracion {order: 1;}
+      .contenedor-texto{
+        order: 2;
+      }
+      .order1 {order: 2;}
+      .order2 {order: 3;}
+      .order3 {order: 1;}
+      .img{text-align: center;}
+    
+      }
+    
+      @media(max-width:800px){
+        .vh-100{
+          flex-direction: column;
+        height: 0 auto;
+        }
+        
+      }
