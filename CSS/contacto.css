@@ -23,4 +23,26 @@
     outline: none;
     resize: none;
   }
+
+  
+  
+
+  @media(max-width:800px){
+    .nosotros
+      {flex-direction: column;}
+    .ilustracion {order: 1;}
+    .contenedor-texto{
+      order: 2;
+    }
+    
+  
+    }
+  
+    @media(max-width:800px){
+      .vh-100{
+        flex-direction: column;
+      height: 0 auto;
+      }
+      
+    }
   
