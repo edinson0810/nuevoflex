@@ -27,15 +27,22 @@
   
   
 
-  @media(width>800px){
-    .nosotros
-      {flex-direction: column;}
-    .ilustracion {order: 1;}
-    .contenedor-texto{
-      order: 2;
-    }
+  @media(width<800px){
+    .contacto{
+      width: 90%;
+        }
+      .titulo{
+        color: var(--main-color);
+      }
+      .input{
+        background-color: var(--main-color);
+      }
+      .boton--amarillo{
+        background-color: var(--white-color);
+      }
+    
     
   
     }
   
-   
+  
