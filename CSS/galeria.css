@@ -13,3 +13,14 @@
     
     
     }
+
+    @media(width<800px){
+    .text-center{
+        margin: 20px 0;
+    }
+    .vh-100{
+    flex-direction: wrap;
+    height:  auto;
+    }
+    
+}
